@@ -22,17 +22,35 @@ body {
 
 .hero-grid-1 {
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-grid-1-xl {
+  background-repeat: no-repeat;
   background-size: 35% auto;
   background-position: center;
 }
 
 .hero-grid-2 {
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-grid-2-xl {
+  background-repeat: no-repeat;
   background-size: 35% auto;
   background-position: center;
 }
 
 .hero-grid-3 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-grid-3-xl {
   background-repeat: no-repeat;
   background-size: 35% auto;
   background-position: center;

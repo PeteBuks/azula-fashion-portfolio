@@ -31,14 +31,14 @@ const Header = () => {
   return (
     <header className="py-5 px-5 xl:py-5 text-black z-20 bg-[#B6B6B6]">
       <div
-        className={`text-white fixed container mx-auto flex justify-center items-center bg-black opacity-0 transition-all duration-300 transform h-[0px] translate-y-[-40vh] ${
+        className={`text-white fixed top-0 left-0 w-[100vw] mx-auto flex justify-center items-center bg-black opacity-0 transition-all duration-300 transform h-[0px] translate-y-[-40vh] ${
           isClicked && "opacity-100 h-[70vh] md:h-[15vh] translate-y-[0vh]"
         }`}
       >
         <Nav />
       </div>
       <div className="container mx-auto flex justify-end items-center">
-        <div className="z-10 fixed p-4 pt-6 bg-black mt-[30px]">
+        <div className="z-10 fixed p-4 pt-6 bg-black mt-[60px]">
           <button
             className="inline-block w-[40px] items-center"
             onClick={handleClick}
